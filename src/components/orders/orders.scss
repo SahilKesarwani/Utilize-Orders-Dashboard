@@ -1,0 +1,56 @@
+.orders {
+	overflow-x: auto;
+}
+
+.orders .order-table {
+	width: 100%;
+	color: #212529;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.orders .order-table th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #dee2e6;
+	text-align: left;
+	padding: 10px;
+}
+
+.orders .order-table td {
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+	padding: 10px;
+}
+
+.orders .order-table tbody tr {
+	cursor: pointer;
+}
+
+.orders .order-table tbody tr:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.orders .order-table tbody tr:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.orders .order-table .delete-cell {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.orders .order-table .delete-btn {
+	all: unset;
+	color: #fff;
+	background-color: #dc3545;
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px 20px;
+}
+
+.orders .order-table .delete-btn:hover {
+	background-color: red;
+}

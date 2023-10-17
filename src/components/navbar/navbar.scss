@@ -1,0 +1,42 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #007bff;
+	color: #fff;
+}
+
+.navbar .user-details {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.navbar .user-details img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.navbar .btn-container {
+	display: flex;
+	gap: 10px;
+}
+
+.navbar .add-order {
+	all: unset;
+	background-color: yellowgreen;
+	color: #000;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.navbar .logout-btn {
+	all: unset;
+	background-color: red;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}

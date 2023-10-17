@@ -1,0 +1,63 @@
+.modal {
+	position: absolute;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: none;
+	backdrop-filter: blur(2px);
+	overflow: hidden;
+}
+
+.modal-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	margin: 50px 30vw;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 10px;
+}
+
+.modal-container .modal-header,
+.modal-container .modal-body,
+.modal-container .modal-footer {
+	padding: 20px;
+}
+
+.modal-container .input-field {
+	display: flex;
+	flex-direction: column;
+	padding: 8px 0;
+}
+
+.modal-container .input-field input {
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.modal-container .modal-footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.modal-container button {
+	all: unset;
+	cursor: pointer;
+	border-radius: 15px;
+	padding: 10px 20px;
+	color: #fff;
+	margin: 0 5px;
+}
+
+.modal-container .submit-btn {
+	background-color: #007bff;
+}
+
+.modal-container .cancel-btn {
+	background-color: #6c757d;
+}
